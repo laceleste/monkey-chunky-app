@@ -42,7 +42,7 @@ export default class App extends React.Component {
             }}>
             <Text style={styles.buttonText}>IR</Text>
           </TouchableOpacity>
-          <Text>{this.state.displayText}</Text>
+          <Text style={styles.displayText}>{this.state.displayText}</Text>
         </View>
       </SafeAreaProvider>
     );
