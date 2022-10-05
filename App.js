@@ -63,10 +63,7 @@ export default class App extends React.Component {
               );
             })}
           </View>
-
-          <Text style={styles.displayText}>{this.state.displayText}</Text>
-
-        </View>
+       </View>
       </SafeAreaProvider>
     );
   }
