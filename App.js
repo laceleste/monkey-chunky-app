@@ -53,6 +53,7 @@ export default class App extends React.Component {
             }}>
             <Text style={styles.buttonText}>IR</Text>
           </TouchableOpacity>
+
           <View>
             {this.state.chunks.map((item) => {
               return (
@@ -62,6 +63,9 @@ export default class App extends React.Component {
               );
             })}
           </View>
+
+          <Text style={styles.displayText}>{this.state.displayText}</Text>
+
         </View>
       </SafeAreaProvider>
     );
